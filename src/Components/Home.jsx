@@ -30,7 +30,7 @@ export default function Home() {
       </div>
 
       {/* Div for Image & text. */}
-      <div className="Image&text w-[100vw] flex justify-around items-center mt-5 flex-wrap">
+      <div className="Image&text w-[100vw] flex justify-around items-center my-5 flex-wrap">
 
         {/* Div for Image. */}
         <div className="Image">
@@ -42,9 +42,29 @@ export default function Home() {
 
           <h1 className='text-xl poppins font-bold'>Unlock Your Potential with MYoga Academy Transforming Lives Through Fitness, Weight Loss, and Emotional Mastery for 5 Years.</h1>
           <h1 className='text-lg my-5'>At MYoga, we believe in the holistic development of mind and body. Our expert instructors guide you through yoga practices designed to improve physical fitness, aid in weight loss, and help you gain control over anger and emotions. Join our vibrant community and experience the life-changing benefits of yoga. MYoga Academy is not just about poses, it's about creating a balanced and fulfilling life.</h1>
+          <button className='py-2 px-4 maincolor text-white rounded-md font-semibold inter hover:opacity-75 active:opacity-50'>Book Free Trail Class</button>
 
-          <button className='py-2 px-4 maincolor text-white rounded-md font-semibold'>Book Free Trail Class</button>
+        </div>
 
+      </div>
+
+      {/* Div for Yoga Images. */}
+      <div className="yogaimages w-[100vw] py-4 maincolor flex items-center justify-around flex-wrap">
+
+        {/* Div for whitebox. */}
+        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-sm items-center'>
+          <img className='h-[10rem]' src="/Photos/Bow.png" alt="" />
+          <h1 className='inter font-bold mt-2 text-xl'>BOW</h1>
+        </div>
+        {/* Div for whitebox. */}
+        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-sm items-center'>
+          <img className='h-[10rem]' src="/Photos/Child.png" alt="" />
+          <h1 className='inter font-bold mt-2 text-xl'>Child</h1>
+        </div>
+        {/* Div for whitebox. */}
+        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-sm items-center'>
+          <img className='h-[10rem]' src="/Photos/Camel.png" alt="" />
+          <h1 className='inter font-bold mt-2 text-xl'>Camel</h1>
         </div>
 
       </div>

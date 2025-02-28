@@ -7,6 +7,13 @@
 /* Importing Source Sans 3. But the design is made with Source Sans Pro. But it is padi. So that I'm using free one Source Sans 3. */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
+/* Importing Inter family. */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    overflow-x: hidden;
+}
+
 .dmsans {
     font-family: "DM Sans", sans-serif;
 }
@@ -15,8 +22,12 @@
     font-family: "Poppins", sans-serif;
 }
 
-.sourcesanpro{
+.sourcesanpro {
     font-family: "Source Sans 3", sans-serif;
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
 }
 
 .maincolor {
