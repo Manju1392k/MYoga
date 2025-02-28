@@ -10,7 +10,7 @@
 /* Importing Inter family. */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-body{
+body {
     overflow-x: hidden;
 }
 
@@ -30,6 +30,14 @@ body{
     font-family: "Inter", sans-serif;
 }
 
+.italic {
+    font-style: italic;
+}
+
 .maincolor {
     background-color: #3C00A4;
+}
+
+.cardcolor {
+    background: linear-gradient(90deg, #3C00A4 0%, #17003E 100%);
 }
