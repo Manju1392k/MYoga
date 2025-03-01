@@ -34,14 +34,36 @@ export default function Home() {
 
         {/* Div for logo. */}
         <div className="logo">
-        <img className='h-[2rem]' src="/Photos/MYoga.png" alt="" />
+          <img className='h-[2rem]' src="/Photos/MYoga.png" alt="" />
         </div>
 
         {/* Div for Menu. */}
         <div className="menu">
-        <img className='h-[2.3rem]' src="/Photos/Menu.png" alt="" />
+          <img className='h-[2.3rem]' src="/Photos/Menu.png" alt="" />
         </div>
 
+      </div>
+
+      {/* Mobile Menubar. */}
+      <div className="Menubar hidden sm:flex lg:flex overflow-hidden maincolor flex-col items-center fixed top-0 my-4 w-0">
+
+        {/* Image for Close button. */}
+        <img className='h-[1.5rem] ml-[85vw]' src="/Photos/Closebtn.png" alt="" />
+
+        {/* Div for links. */}
+        <div className="links text-white font-semibold dmsans text-base flex flex-col items-center">
+          <a href='#' className='mt-4'>Prices</a>
+          <a href='#' className='mt-2'>Blogs</a>
+          <a href='#' className='mt-2'>Online Classes</a>
+          <a href='#' className='mt-2'>Instructor</a>
+        </div>
+
+        {/* Div for buttons. */}
+        <div className="btns flex flex-col">
+          <button type='button' className='bg-white text-black border-none px-4 py-1 rounded-md dmsans mt-2'>Login</button>
+          <button type='button' className='maincolor px-4 py-1 border-2 border-white text-white rounded-md dmsans mt-2 mb-5'>Sigup</button>
+
+        </div>
       </div>
 
       {/* Div for Image & text. */}

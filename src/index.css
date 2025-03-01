@@ -41,3 +41,8 @@ body {
 .cardcolor {
     background: linear-gradient(90deg, #3C00A4 0%, #17003E 100%);
 }
+
+/* PhoneMenubar Css. */
+.PhoneMenubar{
+    width: 100vw;
+}
