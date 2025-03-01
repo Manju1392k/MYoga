@@ -1,7 +1,21 @@
 import React from 'react'
+import { useState } from 'react'
 import '../index.css'
 
 export default function Home() {
+
+  const [menuBar, setMenuBar] = useState(false)
+
+  // Function to openMenubar.
+  const openMenubar = () => {
+    setMenuBar(!menuBar)
+  }
+
+  // Function to closeMenubar.
+  const closeMenubar = () => {
+    setMenuBar(false)
+  }
+
   return (
     <>
 
@@ -39,16 +53,16 @@ export default function Home() {
 
         {/* Div for Menu. */}
         <div className="menu">
-          <img className='h-[2.3rem]' src="/Photos/Menu.png" alt="" />
+          <img className='h-[2.3rem]' src="/Photos/Menu.png" alt="" onClick={openMenubar} />
         </div>
 
       </div>
 
       {/* Mobile Menubar. */}
-      <div className="Menubar hidden sm:flex lg:flex overflow-hidden maincolor flex-col items-center fixed top-0 my-4 w-0">
+      <div className={`Menubar hidden sm:flex lg:flex overflow-hidden maincolor flex-col items-center fixed top-0 my-4 ${menuBar ? 'PhoneMenubar' : 'w-0'}`}>
 
         {/* Image for Close button. */}
-        <img className='h-[1.5rem] ml-[85vw]' src="/Photos/Closebtn.png" alt="" />
+        <img className='h-[1.5rem] ml-[85vw]' src="/Photos/Closebtn.png" alt="" onClick={closeMenubar} />
 
         {/* Div for links. */}
         <div className="links text-white font-semibold dmsans text-base flex flex-col items-center">
