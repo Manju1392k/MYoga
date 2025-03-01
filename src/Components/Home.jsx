@@ -29,6 +29,21 @@ export default function Home() {
 
       </div>
 
+      {/* Mobile Navbar. */}
+      <div className="MobileNavbar hidden sm:flex lg:flex w-[100vw] maincolor justify-around items-center py-4">
+
+        {/* Div for logo. */}
+        <div className="logo">
+        <img className='h-[2rem]' src="/Photos/MYoga.png" alt="" />
+        </div>
+
+        {/* Div for Menu. */}
+        <div className="menu">
+        <img className='h-[2.3rem]' src="/Photos/Menu.png" alt="" />
+        </div>
+
+      </div>
+
       {/* Div for Image & text. */}
       <div className="Image&text w-[100vw] flex justify-around items-center my-5 flex-wrap">
 
