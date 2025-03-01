@@ -72,10 +72,10 @@ export default function Home() {
       <h1 className='poppins text-2xl font-bold italic text-center my-2'>Our Customers Reviewers</h1>
 
       {/* Div for Reviews. */}
-      <div className="Reviews w-[100vw] flex justify-center items-center">
+      <div className="Reviews w-[100vw] flex justify-center items-center mb-4">
 
         {/* Div for Reviewcard. */}
-        <div className="reviewcard cardcolor w-[22rem] rounded-md py-3 px-4">
+        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4">
           {/* Div for stars. */}
           <div className="flex">
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
@@ -84,12 +84,12 @@ export default function Home() {
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
           </div>
-          <h1 className='inter text-lg font-bold text-white'>~ Ravi Kumar</h1>
-          <h1 className='inter text-base text-white'>MYoga has completely transformed my fitness journey. Manjunath’s expertise and compassionate teaching style have helped me achieve flexibility and strength I never thought possible. The sense of community here is unparalleled highly recommend!</h1>
+          <h1 className='inter text-base font-bold text-white'>~ Ravi Kumar</h1>
+          <h1 className='inter text-xs text-white'>MYoga has completely transformed my fitness journey. Manjunath’s expertise and compassionate teaching style have helped me achieve flexibility and strength I never thought possible. The sense of community here is unparalleled highly recommend!</h1>
         </div>
 
         {/* Div for Reviewcard. */}
-        <div className="reviewcard cardcolor w-[22rem] rounded-md py-3 px-4 mx-3">
+        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4 mx-3">
           {/* Div for stars. */}
           <div className="flex">
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
@@ -98,12 +98,12 @@ export default function Home() {
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
           </div>
-          <h1 className='inter text-lg font-bold text-white'>~ S Vikram</h1>
-          <h1 className='inter text-base text-white'>I have been practicing yoga for years, but Manjunath’s classes at MYoga take it to the next level. His tailored approach ensures every session is engaging and effective. I feel more balanced and energized every day thanks to MYoga.</h1>
+          <h1 className='inter text-base font-bold text-white'>~ S Vikram</h1>
+          <h1 className='inter text-xs text-white'>I have been practicing yoga for years, but Manjunath’s classes at MYoga take it to the next level. His tailored approach ensures every session is engaging and effective. I feel more balanced and energized every day thanks to MYoga.</h1>
         </div>
 
         {/* Div for Reviewcard. */}
-        <div className="reviewcard cardcolor w-[22rem] rounded-md py-3 px-4">
+        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4">
           {/* Div for stars. */}
           <div className="flex">
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
@@ -112,8 +112,29 @@ export default function Home() {
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
           </div>
-          <h1 className='inter text-lg font-bold text-white'>~ Radhika P</h1>
-          <h1 className='inter text-base text-white'>Joining MYoga has been the best decision for my physical and mental well-being. Manjunath’s passion for yoga is evident in every class, and his guidance has made a significant difference in my fitness journey. I look forward to each session.</h1>
+          <h1 className='inter text-base font-bold text-white'>~ Radhika P</h1>
+          <h1 className='inter text-xs text-white'>Joining MYoga has been the best decision for my physical and mental well-being. Manjunath’s passion for yoga is evident in every class, and his guidance has made a significant difference in my fitness journey. I look forward to each session.</h1>
+        </div>
+
+      </div>
+
+      {/* Div for Founder. */}
+      <div className="Founder flex w-[100vw] justify-around items-center maincolor py-6">
+
+        {/* Div for FounderInformation */}
+        <div className="FounderInformation flex justify-around items-center bg-white rounded-md w-[55rem]">
+
+          {/* Div for Image. */}
+          <div className='Image'>
+            <img className='h-[13rem]' src="/Photos/Profile-Image.png" alt="" />
+          </div>
+
+          {/* Div for text. */}
+          <div className="text w-[35rem]">
+            <h1 className='poppins text-xl font-bold'>Manjunath is the Founder of MYoga</h1>
+            <h1 className='sourcesanpro text-lg mt-4'>Empowering Fitness Journeys with Manjunath: Founder of MYoga and Seasoned Yoga Teacher Committed to Helping Others Achieve Their Fitness Goals.</h1>
+          </div>
+
         </div>
 
       </div>
