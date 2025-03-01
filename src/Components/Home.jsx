@@ -139,6 +139,40 @@ export default function Home() {
 
       </div>
 
+      {/* Div for Footer. */}
+      <div className="Footer flex justify-center items-start bg-black w-[100vw] py-12">
+
+        {/* Div for FollowUs. */}
+        <div className="FollowUs">
+          <h1 className='text-white inter font-bold text-lg'>Follow Us</h1>
+          {/* Div for Icons. */}
+          <div className="Icons flex mt-5">
+            <img className='bg-white py-2 px-2 cursor-pointer rounded-full h-[2.5rem]' src="/Photos/Instagram.png" alt="" />
+            <img className='bg-white ml-3 py-2 px-2 cursor-pointer rounded-full h-[2.5rem]' src="/Photos/Facebook.png" alt="" />
+            <img className='bg-white ml-3 py-2 px-2 cursor-pointer rounded-full h-[2.5rem]' src="/Photos/X.png" alt="" />
+            <img className='bg-white ml-3 py-2 px-2 cursor-pointer rounded-full h-[2.5rem]' src="/Photos/Whatsapp.png" alt="" />
+          </div>
+        </div>
+
+        {/* Div for Address. */}
+        <div className="Address mx-16">
+          <h1 className='text-white inter font-bold text-lg'>Address</h1>
+          <h1 className='text-white inter font-semibold text-lg mt-5'>MYoga Academy India</h1>
+          <h1 className='text-white inter text-lg'><span className='font-medium'>Opp:</span> Devi School</h1>
+          <h1 className='text-white inter text-lg'><span className='font-medium'>Contact:</span> +91 987772222</h1>
+        </div>
+
+        {/* Div for Subscirbe. */}
+        <div className="subscribe flex flex-col">
+          <h1 className='text-white inter font-bold text-lg'>Subscribe</h1>
+          <h1 className='text-white inter text-xs mt-5'>Email</h1>
+          {/* Inpute field for email. */}
+          <input className='rounded-sm w-[15rem]' type="email" />
+          <button className='mt-2 text-sm py-1 w-[15rem] maincolor text-white rounded-sm font-semibold inter hover:opacity-75 active:opacity-50'>Subscribe</button>
+        </div>
+
+      </div>
+
     </>
   )
 }
