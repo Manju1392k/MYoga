@@ -144,7 +144,7 @@ export default function Home() {
 
         {/* Div for FollowUs. */}
         <div className="FollowUs">
-          <h1 className='text-white inter font-bold text-lg'>Follow Us</h1>
+          <h1 className='text-white inter font-bold text-base'>Follow Us</h1>
           {/* Div for Icons. */}
           <div className="Icons flex mt-5">
             <img className='bg-white py-2 px-2 cursor-pointer rounded-full h-[2.5rem]' src="/Photos/Instagram.png" alt="" />
@@ -155,20 +155,20 @@ export default function Home() {
         </div>
 
         {/* Div for Address. */}
-        <div className="Address mx-16">
-          <h1 className='text-white inter font-bold text-lg'>Address</h1>
-          <h1 className='text-white inter font-semibold text-lg mt-5'>MYoga Academy India</h1>
-          <h1 className='text-white inter text-lg'><span className='font-medium'>Opp:</span> Devi School</h1>
-          <h1 className='text-white inter text-lg'><span className='font-medium'>Contact:</span> +91 987772222</h1>
+        <div className="Address mx-14">
+          <h1 className='text-white inter font-bold text-base'>Address</h1>
+          <h1 className='text-white inter font-semibold text-base mt-5'>MYoga Academy India</h1>
+          <h1 className='text-white inter text-base'><span className='font-medium'>Opp:</span> Devi School</h1>
+          <h1 className='text-white inter text-base'><span className='font-medium'>Contact:</span> +91 987772222</h1>
         </div>
 
         {/* Div for Subscirbe. */}
         <div className="subscribe flex flex-col">
-          <h1 className='text-white inter font-bold text-lg'>Subscribe</h1>
+          <h1 className='text-white inter font-bold text-base'>Subscribe</h1>
           <h1 className='text-white inter text-xs mt-5'>Email</h1>
           {/* Inpute field for email. */}
-          <input className='rounded-sm w-[15rem]' type="email" />
-          <button className='mt-2 text-sm py-1 w-[15rem] maincolor text-white rounded-sm font-semibold inter hover:opacity-75 active:opacity-50'>Subscribe</button>
+          <input className='rounded-sm w-[20rem]' type="email" />
+          <button className='mt-2 text-sm py-1 w-[20rem] maincolor text-white rounded-sm font-semibold inter hover:opacity-75 active:opacity-50'>Subscribe</button>
         </div>
 
       </div>
