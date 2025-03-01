@@ -6,7 +6,7 @@ export default function Home() {
     <>
 
       {/* Div for Navbar. */}
-      <div className="Navbar w-[100vw] py-4 maincolor flex items-center justify-around flex-wrap">
+      <div className="Navbar w-[100vw] py-4 maincolor flex items-center justify-around flex-wrap sm:hidden lg:hidden">
 
         {/* Div for logo. */}
         <div className="logo">
@@ -38,7 +38,7 @@ export default function Home() {
         </div>
 
         {/* Div for text. */}
-        <div className="text w-[60vw]">
+        <div className="text w-[60vw] sm:w-[95vw] sm:mt-4 lg:w-[95vw] lg:mt-4">
 
           <h1 className='text-xl poppins font-bold'>Unlock Your Potential with MYoga Academy Transforming Lives Through Fitness, Weight Loss, and Emotional Mastery for 5 Years.</h1>
           <h1 className='text-lg my-5'>At MYoga, we believe in the holistic development of mind and body. Our expert instructors guide you through yoga practices designed to improve physical fitness, aid in weight loss, and help you gain control over anger and emotions. Join our vibrant community and experience the life-changing benefits of yoga. MYoga Academy is not just about poses, it's about creating a balanced and fulfilling life.</h1>
@@ -49,21 +49,21 @@ export default function Home() {
       </div>
 
       {/* Div for Yoga Images. */}
-      <div className="yogaimages w-[100vw] py-14 maincolor flex items-center justify-around flex-wrap">
+      <div className="yogaimages w-[100vw] py-14 maincolor flex items-center justify-around flex-wrap sm:py-10 lg:py-10">
 
         {/* Div for whitebox. */}
-        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-sm items-center'>
-          <img className='h-[8rem]' src="/Photos/Bow.png" alt="" />
+        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-md items-center'>
+          <img className='h-[8rem] sm:h-[12rem] lg:h-[12rem]' src="/Photos/Bow.png" alt="" />
           <h1 className='inter font-bold mt-2 text-xl'>BOW</h1>
         </div>
         {/* Div for whitebox. */}
-        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-sm items-center'>
-          <img className='h-[8rem]' src="/Photos/Child.png" alt="" />
+        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-md items-center sm:my-16 lg:my-16'>
+          <img className='h-[8rem] sm:h-[12rem] lg:h-[12rem]' src="/Photos/Child.png" alt="" />
           <h1 className='inter font-bold mt-2 text-xl'>Child</h1>
         </div>
         {/* Div for whitebox. */}
-        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-sm items-center'>
-          <img className='h-[8rem]' src="/Photos/Camel.png" alt="" />
+        <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-md items-center'>
+          <img className='h-[8rem] sm:h-[12rem] lg:h-[12rem]' src="/Photos/Camel.png" alt="" />
           <h1 className='inter font-bold mt-2 text-xl'>Camel</h1>
         </div>
 
@@ -72,10 +72,10 @@ export default function Home() {
       <h1 className='poppins text-2xl font-bold italic text-center my-2'>Our Customers Reviewers</h1>
 
       {/* Div for Reviews. */}
-      <div className="Reviews w-[100vw] flex justify-center items-center mb-4">
+      <div className="Reviews w-[100vw] flex justify-center items-center mb-4 flex-wrap">
 
         {/* Div for Reviewcard. */}
-        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4">
+        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4 sm:w-[95vw] lg:w-[95vw]">
           {/* Div for stars. */}
           <div className="flex">
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
@@ -89,7 +89,7 @@ export default function Home() {
         </div>
 
         {/* Div for Reviewcard. */}
-        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4 mx-3">
+        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4 mx-3 sm:w-[95vw] lg:w-[95vw] sm:my-3 lg:my-3">
           {/* Div for stars. */}
           <div className="flex">
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
@@ -103,7 +103,7 @@ export default function Home() {
         </div>
 
         {/* Div for Reviewcard. */}
-        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4">
+        <div className="reviewcard cardcolor w-[18rem] rounded-md py-3 px-4 sm:w-[95vw] lg:w-[95vw]">
           {/* Div for stars. */}
           <div className="flex">
             <img className='h-[1.2rem] ml-1' src="/Photos/Star.png" alt="" />
@@ -122,7 +122,7 @@ export default function Home() {
       <div className="Founder flex w-[100vw] justify-around items-center maincolor py-6">
 
         {/* Div for FounderInformation */}
-        <div className="FounderInformation flex justify-around items-center bg-white rounded-md w-[55rem]">
+        <div className="FounderInformation flex justify-around items-center bg-white rounded-lg w-[55rem] flex-wrap sm:w-[85vw] lg:w-[85vw] sm:p-4 lg:p-4">
 
           {/* Div for Image. */}
           <div className='Image'>
@@ -140,7 +140,7 @@ export default function Home() {
       </div>
 
       {/* Div for Footer. */}
-      <div className="Footer flex justify-center items-start bg-black w-[100vw] py-12">
+      <div className="Footer flex justify-center items-start bg-black w-[100vw] py-12 flex-wrap">
 
         {/* Div for FollowUs. */}
         <div className="FollowUs">
@@ -155,7 +155,7 @@ export default function Home() {
         </div>
 
         {/* Div for Address. */}
-        <div className="Address mx-14">
+        <div className="Address mx-14 sm:my-10 lg:my-10">
           <h1 className='text-white inter font-bold text-base'>Address</h1>
           <h1 className='text-white inter font-semibold text-base mt-5'>MYoga Academy India</h1>
           <h1 className='text-white inter text-base'><span className='font-medium'>Opp:</span> Devi School</h1>
