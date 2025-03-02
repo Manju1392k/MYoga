@@ -100,7 +100,7 @@ export default function Home() {
       </div>
 
       {/* Div for Yoga Images. */}
-      <div className="yogaimages w-[100vw] py-14 maincolor flex items-center justify-around flex-wrap sm:py-10 lg:py-10">
+      <div className="yogaimages w-[100vw] py-14 maincolor flex items-center justify-around flex-wrap sm:py-10 lg:py-10 lg:flex-col">
 
         {/* Div for whitebox. */}
         <div className='whitebox py-3 px-4 flex flex-col bg-white rounded-md items-center'>
@@ -191,7 +191,7 @@ export default function Home() {
       </div>
 
       {/* Div for Footer. */}
-      <div className="Footer flex justify-center items-start bg-black w-[100vw] py-12 flex-wrap">
+      <div className="Footer flex justify-center items-start bg-black w-[100vw] py-12 flex-wrap lg:flex-col lg:items-center">
 
         {/* Div for FollowUs. */}
         <div className="FollowUs">
