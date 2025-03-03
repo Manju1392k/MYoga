@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/178551e4-7daf-41e1-9876-ffe7615d0cd4
 
 # 🎨 MYoga Design in Figma Tool
 
-* MYoga website is made in Figma Tool (Free Version).
+* MYoga website is made in Figma Tool (Free Version). Design <a href='https://www.figma.com/design/LcZPi7FA0tIDJlOG0OIFn9/MYoga?node-id=0-1&t=NN820EsRsnEgWqWf-1'> Link </a>
 
 <div align='center'>
 
