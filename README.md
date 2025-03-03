@@ -94,7 +94,7 @@ npm install
 * Now In **Windows, open cmd, in Mac, bash Terminal**. Now Hit the below commands.
 
 ```bash
-git clone git@github.com:Manju1392k/MYoga.git
+git clone https://github.com/Manju1392k/MYoga.git
 ```
 
 * The project was cloned after this process.
