@@ -5,11 +5,31 @@
 
 # 🌐 Preview of the Website
 
+<div align='center'>
+
+https://github.com/user-attachments/assets/d4145a07-0980-48cc-9437-0ed671b0d93b
+
+</div>
+
 ---
 
 # 📱Preview of the Responsive Design
 
 <div align='center'>
+
+https://github.com/user-attachments/assets/178551e4-7daf-41e1-9876-ffe7615d0cd4
+
+</div>
+
+---
+
+# 🎨 MYoga Design in Figma Tool
+
+* MYoga website is made in Figma Tool (Free Version).
+
+<div align='center'>
+
+
 
 </div>
 
